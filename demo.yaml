@@ -5,7 +5,7 @@
   tasks:
   - name: checkout git repo
     ansible.builtin.git:
-      repo: https://github.com/PRATYUSHNAIR1976/pechuwar.git
+      repo: https://github.com/SS-GitHUBb/mavenproj.git
       dest: /home/ubuntu/gitrepo
   - name: installing tomcat CentOS
     package:
